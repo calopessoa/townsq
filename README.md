@@ -1,5 +1,3 @@
-# townsq - cypress blackbox testing tool
-
 # Project for UI testing at TownSq's homepage.
 
 ## Tools used:
