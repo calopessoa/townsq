@@ -35,4 +35,8 @@ describe('Test functionality to request a budget', () => {
     cy.xpath('//*[@id="rd-select_field-QNTPdeUA8Ra4XtuGeGBM_Q"]').select('Nenhum');
     cy.xpath('//*[@id="rd-select_field-sYDHH89deG7MhjstflkKNw"]').select('TownSq Essencial');
   });
+
+  it('clicks on `Quero Conhecer` to send the forms` info', () => {
+    cy.xpath('//*[@id="rd-button-kmc4u0hv"]').should('not.be.disabled').click();
+  });
 });
