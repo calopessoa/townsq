@@ -1,12 +1,10 @@
 /* eslint-disable no-undef */
 describe('Townsq front-page tests', () => {
   it('should correctly visit and render the main page', () => {
-    // cy.visit('https://www.uol.com.br/')
     cy.visit('https://townsq.com.br/')
   });
 
   it('should click on `Conheça o App`', () => {
-    // cy.visit('https://www.uol.com.br/')
     cy.xpath('//*[@id="post-5017"]/div/div/div/div/section[1]/div/div/div[1]/div/div/div[3]/div/div/a/span/span').click();
   });
 
@@ -21,7 +19,6 @@ describe('Test functionality to request a budget', () => {
   });
 
   it('should click on `Ver Planos`', () => {
-    // cy.visit('https://www.uol.com.br/')
     cy.xpath('//*[@id="post-1912"]/div/div/div/div/section[12]/div/div/div/div/div/div/div/div/a/span/span').click();
   });
 
