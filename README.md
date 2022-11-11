@@ -6,6 +6,13 @@
 - Cucumber
 - xpath lib for Cypress
 
+### About GitHub Actions with Cypress:
+
+A config to CI/CD with cypress tests was made, following the official documentation:
+https://docs.cypress.io/guides/continuous-integration/github-actions#Basic-Setup
+
+The tests will result with some cases failing, and it'll be the case until the web application is corrected
+
 ## Usage:
 
 To use this 2e2 tool, first import the project:
