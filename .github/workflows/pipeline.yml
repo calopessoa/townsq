@@ -1,4 +1,4 @@
-name: Townsq Github Actions
+name: Townsq CI/CD with Github Actions
 
 on:
     push:
