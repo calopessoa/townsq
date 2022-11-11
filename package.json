@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cy": "npx cypress open"
+    "cy": "npx cypress open",
+    "build": "echo \"Build running\"",
+    "deploy": "echo \"Deploying new build\""
   },
   "keywords": [],
   "author": "",
