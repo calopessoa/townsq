@@ -5,6 +5,7 @@
 - Cypress
 - Cucumber
 - xpath lib for Cypress
+- Github Actions
 
 ### About GitHub Actions with Cypress:
 
