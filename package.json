@@ -6,7 +6,8 @@
   "scripts": {
     "cy": "npx cypress open",
     "build": "echo \"Build running\"",
-    "deploy": "echo \"Deploying new build\""
+    "deploy": "echo \"Deploying new build\"",
+    "start": "npm run deploy & node index.js"
   },
   "keywords": [],
   "author": "",
